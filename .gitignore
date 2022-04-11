@@ -3,6 +3,7 @@
 
 # Python Virtual Environment Directory
 Python/
+python
 
 # Cache Folders in Model Directory
 Model/.ipynb_checkpoints

@@ -1,0 +1,26 @@
+{
+
+    "manifest_version": 2,
+    "name": "Fish the Phish",
+    "version": "1.0",
+  
+    "description": "Checks if a website is a Phishing website or not",
+  
+    "icons": {
+      "48": "icons/phishing_white.svg",
+      "96": "icons/phishing_white.svg"
+    },
+
+    "permissions": [
+        "tabs",
+        "<all_urls>",
+        "storage"
+    ],    
+  
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["main.js"]
+      }
+    ]
+  }

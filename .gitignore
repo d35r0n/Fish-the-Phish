@@ -1,0 +1,9 @@
+# Python Cache Folders
+**/__pycache__/
+
+# Python Virtual Environment Directory
+Python/
+
+# Cache Folders in Model Directory
+Model/.ipynb_checkpoints
+Model/catboost_info

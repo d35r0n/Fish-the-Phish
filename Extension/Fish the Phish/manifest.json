@@ -15,12 +15,18 @@
         "tabs",
         "<all_urls>",
         "storage"
-    ],    
+    ],
+
+    "browser_action": {
+      "default_icon": "icons/phishing_white.svg",
+      "default_title": "Fish the Phish",
+      "default_popup": "popup/fish.html"
+    },
   
     "content_scripts": [
       {
         "matches": ["<all_urls>"],
-        "js": ["main.js"]
+        "js": ["background.js"]
       }
     ]
   }

@@ -29,4 +29,4 @@ def is_url_phishy(url):
     # Running the model to get the percentage of how much the URL is NOT phishy
     safety_score = model.predict_proba(data)[0,1]
     # Returning the values in an array
-    return [is_safe, safety_score]
+    return [is_safe, "{:.2f}%".format(safety_score*100)]

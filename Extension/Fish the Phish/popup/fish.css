@@ -1,0 +1,22 @@
+html, body {
+  width: 250px;
+}
+
+.hidden {
+  display: none;
+}
+
+.title {
+  margin: 3% auto;
+  padding: 4px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.value {
+  margin: 3% auto;
+  padding: 4px;
+  text-align: center;
+  font-size: 1em;
+  cursor: pointer;
+}

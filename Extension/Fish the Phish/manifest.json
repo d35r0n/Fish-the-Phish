@@ -7,8 +7,8 @@
     "description": "Checks if a website is a Phishing website or not",
   
     "icons": {
-      "48": "icons/phishing_white.svg",
-      "96": "icons/phishing_white.svg"
+      "48": "icons/white.svg",
+      "96": "icons/white.svg"
     },
 
     "permissions": [
@@ -18,7 +18,7 @@
     ],
 
     "browser_action": {
-      "default_icon": "icons/phishing_white.svg",
+      "default_icon": "icons/white.svg",
       "default_title": "Fish the Phish",
       "default_popup": "popup/fish.html"
     },

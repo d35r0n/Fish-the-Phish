@@ -1,5 +1,6 @@
-# Python Cache Folders
+# Cache Folders and Files
 **/__pycache__/
+**/tempCodeRunnerFile.python
 
 # Python Virtual Environment
 Python/

@@ -17,16 +17,3 @@ getActiveTab().then((tabs) => {
         document.getElementById("score").innerHTML = response.score;
     }
 })
-
-// let tabs = await getActiveTab();
-// let url = btoa(tabs[0].url);
-
-// request.open("GET", api+url);
-// request.send();
-
-// request.onload = (e) => {
-//     const response = JSON.parse(request.response);
-//     // document.getElementById("url").innerHTML = response.url;
-//     document.getElementById("safe").innerHTML = response.safe;
-//     document.getElementById("score").innerHTML = response.score;
-// }

@@ -9,3 +9,6 @@ python
 # Cache Folders in Model Directory
 Model/.ipynb_checkpoints
 Model/catboost_info
+
+# To-Do List
+To-Do_List.md
